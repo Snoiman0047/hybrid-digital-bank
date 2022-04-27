@@ -37,7 +37,7 @@ app.post('/api/accounts/create', async function (req, res) {
     await axios
     .get('http://localhost:4200/api/anomaly-detection/account')
     .then((res, req) => {
-        await accounts.create(newAccount, function (err) {
+        accounts.create(newAccount, function (err) {
             if (err) {
                 console.log(err);
                 res.status(500).send(err);
