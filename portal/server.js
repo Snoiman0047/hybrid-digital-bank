@@ -1,5 +1,5 @@
 'use strict';
-require('dotenv').config({silent: true, path: `${__dirname}/.env`});
+require('dotenv').config({silent: true, path: `${__dirname}/.env.data`});
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
