@@ -7,8 +7,7 @@
     "node": "^6.9.0"
   },
   "scripts": {
-    "start": "node support/server.js & node anomaly-detection/server.js & node accounts/server.js & node authentication/server.js & node bills/server.js & node transactions/server.js & node userbase/server.js & node portal/server.js",
-    "dev": "concurrently \"cd support && npm start\" \"cd accounts && npm start\""
+    "start": "node support/server.js & node anomaly-detection/server.js & node accounts/server.js & node authentication/server.js & node bills/server.js & node transactions/server.js & node userbase/server.js & node portal/server.js"
   },
   "dependencies": {
     "axios": "^0.27.2",
