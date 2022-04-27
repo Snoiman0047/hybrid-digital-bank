@@ -6,7 +6,7 @@ const prompts = [
   ["how old are you"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
   ["who created you", "who made you"],
-  [ "your name please", "your name", "may i know your name", "what is your name", "what call yourself"],
+  ["your name please", "your name", "may i know your name", "what is your name", "what call yourself"],
   ["i love you"],
   ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
   ["bad", "bored", "tired"],

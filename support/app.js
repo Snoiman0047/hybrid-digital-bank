@@ -19,8 +19,9 @@ app.all('*', function (req, res, next) {
 
 // POST: get bot response for user request.
 app.post('/api/message', async function (req, res) {
+  let botResp = await getBotResponse(req.body.input.text)
     let botJsonRes = {
-        'output': { 'text': getBotResponse(req.body.input.text)}
+        'output': { 'text': botResp}
     }
     return res.json(botJsonRes);
 });
