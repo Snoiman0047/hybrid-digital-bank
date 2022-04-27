@@ -1,6 +1,6 @@
 'use strict';
 
-require('dotenv').config({silent: true, path: `${__dirname}/.env`});
+require('dotenv').config({silent: true, path: `${__dirname}/.env.data`});
 
 var server = require('./app');
 
