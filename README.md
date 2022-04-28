@@ -22,7 +22,7 @@ When thinking of business capabilities, our imaginary bank will need the followi
 Clone the `hybrid-digital-bank` repository locally. In a terminal, run:
 
 ```bash
-$ git clone https://github.com/IBM/innovate-digital-bank.git
+$ git clone https://github.com/Snoiman0047/hybrid-digital-bank.git
 ```
 
 ### 2. Create an Instance of MongoDB
